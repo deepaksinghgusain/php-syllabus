@@ -2,14 +2,13 @@
 
 /**
  *
- * 2. Arithmetic Operators
- * 3. Assignment Operators
- * 5. Comparison Operators
- * 8. Incrementing/Decrementing Operators
- * 9. Logical Operators
- * 10. String Operators
- * 11. Array Operators
- * 12. Type Operators
+ * 1. Arithmetic Operators
+ * 2. Assignment Operators
+ * 3. Comparison Operators
+ * 4. Incrementing/Decrementing Operators
+ * 5. Logical Operators
+ * 6. String Operators
+ * 7. Array Operators
  */
 
 /**
@@ -70,4 +69,24 @@
  * ! $a	Not	true if $a is not true.
  * $a && $b	And	true if both $a and $b are true.
  * $a || $b	Or	true if either $a or $b is true. 
+ */
+
+/**
+ * String Operators
+ *
+ * There are two string operators. The first is the concatenation operator ('.'), 
+ * which returns the concatenation of its right and left arguments. 
+ * The second is the concatenating assignment operator ('.='), which appends the argument 
+ * on the right side to the argument on the left side.
+ */
+
+/**
+ * Array Operators
+ * 
+ * $a + $b	Union	Union of $a and $b.
+ * $a == $b	Equality	true if $a and $b have the same key/value pairs.
+ * $a === $b	Identity	true if $a and $b have the same key/value pairs in the same order and of the same types.
+ * $a != $b	Inequality	true if $a is not equal to $b.
+ * $a <> $b	Inequality	true if $a is not equal to $b.
+ * $a !== $b	Non-identity	true if $a is not identical to $b.
  */

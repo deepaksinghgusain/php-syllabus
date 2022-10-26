@@ -7,5 +7,4 @@
  * 3. Sessions
  * 4. Handling file uploads
  * 5. Using remote files
- * 6. 
  */
